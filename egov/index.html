@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birth Registration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Birth Registration Form</h1>
+        <form action="register.php" method="post">
+            <label for="childName">Child's Name:</label>
+            <input type="text" id="childName" name="childName" required>
+            
+            <label for="birthDate">Date of Birth:</label>
+            <input type="date" id="birthDate" name="birthDate" required>
+            
+            <label for="birthPlace">Place of Birth:</label>
+            <input type="text" id="birthPlace" name="birthPlace" required>
+            
+            <label for="fatherName">Father's Name:</label>
+            <input type="text" id="fatherName" name="fatherName" required>
+            
+            <label for="motherName">Mother's Name:</label>
+            <input type="text" id="motherName" name="motherName" required>
+            
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
